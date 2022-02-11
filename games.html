@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<title>Games</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/nav.css">
+<style>
+
+  
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+    background-color: #E6E6FA;
+  }
+  
+  
+  </style>
+<body>
+  <nav class="navbar">
+    <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fa fa-bars"></i>
+        </label>
+    <a href="index.html" class="logo"> Infotainly</a>
+    <input type="checkbox" id="chkToggle"></input>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="games.html" class="nav-links">Games</a>
+      </li>
+      <li>
+        <a href="blogs.html" class="nav-links">Blogs</a>
+      </li>
+      <li>
+        <a href="edit.html" class="nav-links">Profile</a>
+      </li>
+      <li>
+        <a href="register.html" class="nav-links">Register</a>
+      </li>
+    </ul>
+  </nav>
+<div class="p-4">
+    <div class=" mt-5 p-3 my-3 " style="text-align:center">
+      <h2><strong>Games</strong></h2>
+</div>
+<br>
+ <br>
+<div class="container-fluid">
+    <div class="card-deck">
+
+ 
+
+      <div class="card bg-light mb-4 col-md-4 col-sm-6">
+          <img class="card-img-top deckimg" src="./images/quiz.png" alt="Card image">
+          <div class="card-body text-center">
+            <h3 class="card-title">Quiz-Game</h3>
+            <a href="./quiz.html" class="btn btn-dark">Read</a>
+          </div>
+      </div>
+
+    
+      <div class="card bg-light mb-4 col-md-4 col-sm-6">
+        <img class="card-img-top deckimg" src="./images/tic.png" alt="Card image">
+        <div class="card-body text-center">
+          <h3 class="card-title">Tic Tac Toe</h3>
+          <a href="./tictactoe.html" class="btn btn-dark">Read</a>
+        </div>
+    </div>
+    
+    <div class="card bg-light mb-4 col-md-4 col-sm-6">
+      <img class="card-img-top deckimg" src="./images/weather.png" alt="Card image">
+      <div class="card-body text-center">
+        <h3 class="card-title">Weather Forecaster</h3>
+        <a href="./weather.html" class="btn btn-dark">Read</a>
+      </div>
+  </div>
+
+  </div>
+</div>
+
+ 
+  
+<footer>
+  <h1>About Infotainly</h1>
+  <p>At Infotainly we focus on quality and knowledgable content.We keep things as simple as possible.Performing quizzes,playing tic tac toe and get to know more about weather everyday</p>
+
+  <p class="txt">We provide <b>solutions</b>. Our main focus is on creativity and providing maximum output as possible.
+      Quality and plagiarism free content based on Data Science, Web Development, and Artificial Intelligence.Have fun :)</p>
+
+
+</footer>
+    
+    </div>
+
+   
+  <script>
+  
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
+  <script src="js/nav.js"></script>
+  <script src="/js/index.js"></script>
+</body>
+</html>
