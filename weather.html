@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/weather.css">
 <style>
 
   
@@ -26,6 +26,7 @@
   </style>
 
 <body>
+  <!--
    <nav class="navbar">
             <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
                     <i class="fa fa-bars"></i>
@@ -49,7 +50,7 @@
                 <a href="register.html" class="nav-links">Register</a>
               </li>
             </ul>
-          </nav>
+          </nav>-->
           <div class="api">
             <div class="container"><a target="_blank" href="https://home.openweathermap.org/users/sign_up"></a>
             </div>
@@ -58,9 +59,10 @@
             <div class="container">
               <h1 class="heading">Simple Weather App</h1>
               <form>
-                <input type="text" placeholder="Search for a city" autofocus>
-                <button type="submit">SUBMIT</button>
-                <span class="msg"></span>
+                
+                <input type="text" placeholder="Search for a city" class="inputvalue" >
+                <button type="submit" class="btn">Search a city</button>
+                
               </form>
             </div>
           </section>
@@ -68,10 +70,11 @@
             <div class="container">
               <ul class="cities"></ul>
             </div>
+         
           </section>
          <!-- Footer -->
 
-  <script src="js/nav.js"></script>
+
   <script src="/js/index.js"></script>
   <script src="/js/weather.js"></script>
 </body>
