@@ -34,7 +34,15 @@
     border: black;
     background: none;
     outline: black;
-    color: inherit;
+    color: black;
+    
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+    outline-style: solid;
+    
   }
   
   img {
@@ -61,8 +69,34 @@
     padding: 15px 15px;
   }
   
+  .search{
+    width:60px;
+    height:30px;
+    color:black;
+
+  }
+ //new changes for input button 
+ .inputvalue {
+  font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+    outline-style: solid;
+    width:900px;
+
+}
+.btn {
+  background-color: transparent;
   
- 
+  color: black;
+  outline-style: solid;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: bold;
+}
   .top-banner {
     color: var(--text_light);
   }
@@ -72,6 +106,7 @@
     font-size: 4rem;
     letter-spacing: 0.02em;
     padding: 0 0 30px 0;
+    color:black;
   }
   
   .top-banner form {
@@ -79,12 +114,16 @@
     display: flex;
     align-items: center;
   }
-  
+  //main changes are done for input search
   .top-banner form input {
     font-size: 2rem;
     height: 40px;
     padding: 5px 5px 10px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+    outline-style: solid;
+    width:900px;
+
   }
   
   .top-banner form input::placeholder {
