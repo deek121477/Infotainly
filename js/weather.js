@@ -43,6 +43,7 @@ form.addEventListener("submit", e => {
       return;
     }
   }
+//
 
   //ajax here
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
